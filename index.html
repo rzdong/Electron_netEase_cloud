@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="-webkit-app-region: drag; background-color: #f5f5f5;" >
+<html style=" background-color: #f5f5f5;" >
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
@@ -21,7 +21,8 @@
         padding: 10px;
         background-color: #d83c3e;
         position: absolute;
-        top: 0
+        top: 0;
+        z-index: 2;
       }
       .footer {
         height: 42px;
@@ -31,19 +32,21 @@
         width: 100%;
         padding: 6px;
         line-height: 30px;
+        z-index: 2
       }
       .haochang_logo {
         font-size: 25px;
         color: #f0f0f0;
         line-height: 30px;
         display: inline-block;
-        width: 150px;
+        width: 140px;
       }
       .context {
         height: 100%;
         padding: 50px 0 42px 0; 
         position: relative;
         overflow: hidden;
+        z-index: 1
       }
       .ctx_left {
         height: 100%;
@@ -51,6 +54,7 @@
         position: absolute;
         left: 0;
         border: 1px solid #ccc;
+        padding-bottom: 90px
       }
       .ctx_right {
         height: 100%;
@@ -78,27 +82,48 @@
         background-color: #e0e0e0;
       }
       .search_back {
-        line-height: 30px;
-        display: inline;
+        position: relative;
+        display: inline-block;
+        height: 30px;
       }
       .search_back > span {
-        padding: 5px;
         line-height: 30px;
+        padding: 0px 5px;
         color: #fff;
-        border: 1px solid #888;
-        width: 20px;
+        border: 1px solid #fff;
+        position: relative;
+        top: -2px;
+      }
+      .search_input {
+        position: relative;
+        margin-left: 15px; 
+        top: -3px;
+        height:21px;
+        border-radius: 15px;
+        border: 1px solid #f0f0f0;
+        padding: 0 8px;
+        outline:none;
+      }
+      .close {
         display: inline-block;
+        float: right;
+        margin-right: 5px;
+        line-height: 30px;
+        padding: 0 8px;
+        color: #fff;
       }
     </style>
   </head>
   <body>
-    <div class="header">
-      <span class="haochang_logo">好唱 show</span>
+    <div class="header" style="-webkit-app-region: drag;">
+      <span class="haochang_logo" style="-webkit-app-region: no-drag;">好唱 show</span>
       <div class="search_back">
-        <span><</span><span>></span>
+        <span style="border-radius: 3px 0 0 3px;border-right-width: 0px;-webkit-app-region: no-drag;"><</span><span style="border-radius: 0 3px 3px 0;-webkit-app-region: no-drag;">></span>
+        <input type="text" class="search_input" placeholder="搜索音乐，歌词..." style="-webkit-app-region: no-drag;"/>
       </div>
+      <div class="close">X</div>
     </div>
-    <div class="context">
+    <div class="context" style="-webkit-app-region: no-drag;">
       <div class="ctx_left">
         <div class="menu_modle">
           <p>推荐</p>

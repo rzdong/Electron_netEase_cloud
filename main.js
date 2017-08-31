@@ -3,14 +3,14 @@ let win
 function createWindow(){
   win = new BrowserWindow({width:1000, height:750,frame:false})
   win.loadURL(`file://${__dirname}/index.html`)
-  // win.webContents.openDevTools()//开启调试工具
+  win.webContents.openDevTools()//开启调试工具
   win.show()
   win.on('close', () => {
       win = null
   })
-  win.on('resize', () => {
-      win.reload()
-  })
+  // win.on('resize', () => {
+  //     win.reload()
+  // })
 }
 app.on('ready', createWindow)
 app.on('window-all-cloased', () => {
