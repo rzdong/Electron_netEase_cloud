@@ -1,4 +1,5 @@
 /node_modules
 /index.html
-/htmlMain.js
+/index.js
 /npm-debug.log
+/outApp

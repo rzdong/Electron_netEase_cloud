@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "haochangApp",
   "private": true,
-  "main": "main.js",
+  "main": "electron.js",
   "author": "Ren",
   "dependencies": {
     "react": "^15.6.1",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "preview": "electron .",
-    "packager": "electron-packager ./dist electron --platform=win32 --arch=x64 -- out ./outApp --version 1.4.13 --overwrite --icon=money.png",
+    "packager": "electron-packager ./ music --platform=win32 --arch=x64 --out ./outApp --version 1.4.13 --overwrite --icon=./image/haochang.ico",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -25,7 +25,6 @@
     "clean-webpack-plugin": "^0.1.16",
     "electron-packager": "^9.0.0",
     "electron-prebuilt": "^1.4.13",
-    "html-webpack-plugin": "^2.29.0",
-    "webpack": "^3.5.5"
+    "html-webpack-plugin": "^2.29.0"
   }
 }
