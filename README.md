@@ -1,8 +1,8 @@
 # Electron_haochang
 this is a demo for haochang of party
-#install
+# install
 npm i
-#preview
+# preview
 npm run start
-#build
+# build
 npm run packager
