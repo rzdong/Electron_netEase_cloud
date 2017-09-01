@@ -1,6 +1,6 @@
 # Electron_haochang
-this is a demo for cloud music of neteasy
-:wink:
+this is a demo for party of haochang <br />
+:blush:
 # download
 git clone ssh or https
 # install
