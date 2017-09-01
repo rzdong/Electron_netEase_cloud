@@ -17,5 +17,5 @@ app.get('/',function (req,res) {
 
 
 var server = app.listen(5000,function(){
-    console.log('5000')
+    console.log('server start at localhost:5000')
 })

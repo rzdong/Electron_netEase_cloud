@@ -8,7 +8,9 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.10",
+    "express": "^4.15.4",
+    "webpack": "^3.5.5"
   },
   "scripts": {
     "preview": "electron .",
