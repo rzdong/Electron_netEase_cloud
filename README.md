@@ -3,6 +3,6 @@ this is a demo for haochang of party
 # install
 npm i
 # preview
-npm run start
+npm run preview
 # build
 npm run packager

@@ -1,15 +1,29 @@
 {
   "name": "channel",
   "version": "1.0.0",
-  "description": "",
+  "description": "haochangApp",
+  "private": true,
   "main": "main.js",
   "author": "Ren",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10"
+  },
   "scripts": {
-    "start": "electron .",
-    "packager": "electron-packager ./ electron --platform=win32 --arch=x64 -- out ./outApp --version 1.4.13 --overwrite --icon=./money.png"
+    "preview": "electron .",
+    "packager": "electron-packager ./dist electron --platform=win32 --arch=x64 -- out ./outApp --version 1.4.13 --overwrite --icon=money.png",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
     "electron-packager": "^9.0.0",
-    "electron-prebuilt": "^1.4.13"
+    "electron-prebuilt": "^1.4.13",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.5.5"
   }
 }
