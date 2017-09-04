@@ -1,15 +1,16 @@
 import React,  { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './Header.css'
+import './Header.css';
+import img_logo from '../../image/haochang.jpg';
 
 class Header extends Component {
 	render(){
 		return (
 			<div className="Header">
-      			<span className="Haochang_logo">乐音云易网</span>
+      			<span className="Haochang_logo"><img src={img_logo} alt="" className="img_logo"/>好唱show</span>
 	      		<div className="Search_back">
-					<span className="Left_arrow">&lt;</span>
-					<span className="Right_arrow">&gt;</span>
+					<span className="Left_arrow"><span className="glyphicon glyphicon-chevron-left"></span></span>
+					<span className="Right_arrow"><span className="glyphicon glyphicon-chevron-right"></span></span>
 					<input type="text" className="Search_input" placeholder="搜索音乐，歌词..."/>
 	      		</div>
       			<div className="Close">X</div>

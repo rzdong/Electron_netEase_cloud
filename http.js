@@ -3,10 +3,10 @@ var path = require('path')
 var app = express();
 
 // 静态资源中间件
-app.use(express.static('./'))
+app.use(express.static(path.join(__dirname, './')))
 
 // 设置渲染模板
-app.set('views', './')
+app.set('views', path.join(__dirname, './'))
 
 // 设置模板引擎
 app.set('view engine', 'html')

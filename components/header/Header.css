@@ -2,7 +2,7 @@
     width: 100%;
     height: 50px;
     padding: 10px;
-    background-color: #d83c3e;
+    background-color: #b60231;
     position: absolute;
     top: 0;
     z-index: 2;
@@ -10,17 +10,21 @@
 }
 
 .Haochang_logo {
-    font-size: 25px;
+    font-size: 22px;
     color: #f0f0f0;
     line-height: 30px;
     display: inline-block;
     width: 140px;
     -webkit-app-region: no-drag;
 }
+.img_logo {
+    width: 30px;
+    height: 30px;
+}
 .Search_back {
     position: relative;
     display: inline-block;
-    height: 30px;
+    height: 24px;
     -webkit-app-region: no-drag;
 }
 .Search_back > span {
@@ -29,7 +33,8 @@
     color: #fff;
     border: 1px solid #fff;
     position: relative;
-    top: -2px;
+    top: -3px;
+    padding: 2px;
 }
 .Left_arrow {
     border-radius: 3px 0 0 3px;
