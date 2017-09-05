@@ -16,6 +16,11 @@
     display: inline-block;
     width: 140px;
     -webkit-app-region: no-drag;
+    height: 30px;
+}
+.Haochang_logo span {
+    display: inline-block;
+    vertical-align: top;
 }
 .img_logo {
     width: 30px;
