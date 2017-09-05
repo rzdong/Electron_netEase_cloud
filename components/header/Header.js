@@ -13,7 +13,7 @@ class Header extends Component {
 					<span className="Right_arrow"><span className="glyphicon glyphicon-chevron-right"></span></span>
 					<input type="text" className="Search_input" placeholder="搜索音乐，歌词..."/>
 	      		</div>
-      			<div className="Close">X</div>
+      			<div className="Close"><span className="glyphicon glyphicon-remove"></span></div>
     		</div>
 		)
 	}

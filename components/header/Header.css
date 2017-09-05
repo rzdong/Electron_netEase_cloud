@@ -35,6 +35,7 @@
     position: relative;
     top: -3px;
     padding: 2px;
+    cursor: pointer;
 }
 .Left_arrow {
     border-radius: 3px 0 0 3px;
@@ -56,10 +57,11 @@
     color: #fff;
 }
 .Close {
+    font-size: 20px;
     display: inline-block;
     float: right;
-    margin-right: 5px;
-    line-height: 30px;
+    line-height: 35px;
     padding: 0 8px;
     color: #fff;
+    cursor: pointer;
 }

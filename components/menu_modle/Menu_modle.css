@@ -9,13 +9,26 @@
 .Menu_modle > ul {
     padding-left: 0px;
 }
-.Menu_modle > ul > li {
+.Menu_modle > ul > a{
+    display: block;
+}
+.Menu_modle > ul li {
     color: #555;
     list-style: none;
     padding: 6px 4px 6px 16px;
     font-size: 14px;
     cursor: pointer;
 }
-.Menu_modle > ul > li:hover {
+.Menu_modle > ul li > span {
+    line-height: 20px;
+}
+.Menu_modle > ul li > span:last-child {
+    margin-left: 10px; 
+}
+.Menu_modle > ul li:hover {
     background-color: #e0e0e0;
+}
+.Menu_modle .active {
+    background-color: #e0e0e0;
+    border-left: 4px solid #cc0000;
 }

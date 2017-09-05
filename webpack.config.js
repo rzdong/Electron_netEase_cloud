@@ -36,10 +36,15 @@ module.exports = {
             beautify: false, /*紧凑输出*/ 
             comments: false, /*删除注释*/ 
             compress: {
-                warnings: false, /*删除没有用到的代码不输出警告 */
-                drop_console: true, /*删除所有的console */
-                collapse_vars: true, /*内嵌定义了但是只用到一次的变量 */
-                reduce_vars: true /*提取出出现多次但是没有定义成变量去引用的静态值 */
+                //warnings: false, /*删除没有用到的代码不输出警告 */
+                //drop_console: true, /*删除所有的console */
+                //collapse_vars: true, /*内嵌定义了但是只用到一次的变量 */
+                //reduce_vars: true /*提取出出现多次但是没有定义成变量去引用的静态值 */
+            }
+        }),
+        new webpack.DefinePlugin({
+            "process.env": { 
+                NODE_ENV: JSON.stringify("production") 
             }
         })
     ]
