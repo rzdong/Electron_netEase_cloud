@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "haochangApp",
   "private": true,
-  "main": "electron.js",
+  "main": "main.js",
   "author": "Ren",
   "dependencies": {
     "express": "^4.15.4",
