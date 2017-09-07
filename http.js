@@ -11,8 +11,9 @@ app.set('views', path.join(__dirname, './'))
 // 设置模板引擎
 app.set('view engine', 'html')
 
-app.get('/*',function (req,res) {
+app.get('/?',function (req,res) {
     res.render('index')
+    // res.end("nihao")
 })
 
 
