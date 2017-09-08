@@ -3,7 +3,8 @@
     padding: 0 20px 0 20px;
     height: 100%;
     width: 100%;
-    position: relative
+    position: relative;
+    text-align: center;
 }
 .Find_header {
     height: 44px;
@@ -41,5 +42,7 @@
     margin: 0;
 }
 .Find_content {
-
+    display: inline-block;
+    max-width: 890px;
+    width: 100%;
 }
