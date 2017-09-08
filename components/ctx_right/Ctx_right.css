@@ -8,4 +8,5 @@
     /*border: 1px solid #ccc;*/
     border-left: none;
     border-top: 1px solid #ccc;
+    position: relative;
 }

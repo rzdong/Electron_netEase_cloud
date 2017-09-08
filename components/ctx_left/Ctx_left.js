@@ -5,7 +5,7 @@ import './Ctx_left.css';
 class Ctx_left extends Component {
     constructor(props){
         super(props);
-        this.state = {active: ""}
+        this.state = {active: "发现音乐"}
         this.handClick = this.handClick.bind(this)
     }
     handClick(ctx){

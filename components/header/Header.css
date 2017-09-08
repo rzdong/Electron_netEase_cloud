@@ -34,12 +34,11 @@
 }
 .Search_back > span {
     line-height: 30px;
-    padding: 0px 5px;
+    padding: 3px 5px;
     color: #fff;
     border: 1px solid #fff;
     position: relative;
     top: -3px;
-    padding: 2px;
     cursor: pointer;
 }
 .Left_arrow {
@@ -48,6 +47,7 @@
 }
 .Right_arrow {
     border-radius: 0 3px 3px 0;
+    border-left: none;
 }
 .Search_input {
     position: relative;

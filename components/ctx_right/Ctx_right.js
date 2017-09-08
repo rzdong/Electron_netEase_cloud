@@ -32,6 +32,7 @@ class Ctx_right extends Component {
         return (
             <div className="Ctx_right">
                 <Switch>
+                    <Redirect from="/" to="find" exact />
                     <Route path="/find" component={Find}></Route>
                     <Route path="/fm" component={Fm}></Route>
                     <Route path="/mv" component={Mv}></Route>
