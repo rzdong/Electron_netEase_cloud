@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Menu_modle from '../menu_modle/Menu_modle';
+import Menu_modle from './menu_modle/Menu_modle';
 import './Ctx_left.css';
 
 class Ctx_left extends Component {

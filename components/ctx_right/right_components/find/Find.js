@@ -7,11 +7,12 @@ import {
     Redirect
 } from 'react-router-dom';
 import './Find.css';
-class Modles extends Component {
-    render(){
-        return <span>{this.props.match.url}</span>
-    }
-}
+import Personality from './find_components/personality/Personality'
+import List from './find_components/list/List'
+import Anchor from './find_components/anchor/Anchor'
+import Rank from './find_components/rank/Rank'
+import Singer from './find_components/singer/Singer'
+import New from './find_components/new/New'
 class Find extends Component {
     constructor(props){
         super(props);
@@ -49,12 +50,12 @@ class Find extends Component {
                 <div className="Find_content">
                     <Switch>
                         <Redirect from='/find/' to='/find/personality' exact/>
-                        <Route path="/find/personality/" component={Modles}></Route>
-                        <Route path="/find/list" component={Modles}></Route>
-                        <Route path="/find/anchor" component={Modles}></Route>
-                        <Route path="/find/rank" component={Modles}></Route>
-                        <Route path="/find/singer" component={Modles}></Route>
-                        <Route path="/find/new" component={Modles}></Route>
+                        <Route path="/find/personality/" component={Personality}></Route>
+                        <Route path="/find/list" component={List}></Route>
+                        <Route path="/find/anchor" component={Anchor}></Route>
+                        <Route path="/find/rank" component={Rank}></Route>
+                        <Route path="/find/singer" component={Singer}></Route>
+                        <Route path="/find/new" component={New}></Route>
                     </Switch>
                 </div>
             </div>
