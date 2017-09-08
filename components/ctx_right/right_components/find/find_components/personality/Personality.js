@@ -18,16 +18,16 @@ class Personality extends Component {
         var oneItem = [
             [
                 { src: A, content: "标题1"},
-                { src: B, content: "标题1标题1标题1标题1标题1标题1标题1"},
+                { src: B, content: "标题1标题1标题1标题1标题1标题1"},
                 { src: C, content: "标题1"},
-                { src: D, content: "标题1"},
+                { src: D, content: "标题1标题1标题1"},
                 { src: E, content: "标题1标题1"},
             ],
             [
-                { src: F, content: "标题1"},
+                { src: F, content: "标题1标题1"},
                 { src: G, content: "标题1标题1标题1"},
-                { src: H, content: "标题1"},
-                { src: I, content: "标题1标题1标题1标题1标题1标题1标题1标题1"},
+                { src: H, content: "标题1标题1标题1标题1"},
+                { src: I, content: "标题1标题1标题1标题1标题1标题1"},
                 { src: J, content: "标题1"},
             ]
         ]
