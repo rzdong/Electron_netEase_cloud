@@ -1,0 +1,18 @@
+.Title_hr {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    color: #444;
+    margin-bottom: 10px;
+}
+.Title_hr > .title {
+    font-size: 16px;
+    line-height: 40px;
+    float: left;
+}
+.Title_hr > .more {
+    font-size: 12px;
+    position: relative;
+    top: 18px;
+    cursor: pointer;
+    float: right;
+}

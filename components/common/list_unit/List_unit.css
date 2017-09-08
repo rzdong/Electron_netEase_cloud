@@ -1,0 +1,24 @@
+.List_unit {
+    flex: 1;
+    padding-right: 20px;
+    margin-bottom: 20px; 
+}
+.List_unit > .Image {
+    border: 1px solid #ccc;
+}
+.List_unit > .Image > img {
+    width: 100%;
+    cursor: pointer;
+}
+.List_unit > .Content {
+    font-size: 14px;
+    color: #444;
+    text-align: left;
+    margin-top: 6px;
+}
+.List_unit > .Content > span {
+    cursor: pointer;
+}
+.List_unit_padding_right {
+    padding-right: 0;
+}

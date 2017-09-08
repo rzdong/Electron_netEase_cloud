@@ -24,7 +24,7 @@
     line-height: 36px;
     color: #444;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
 }
 .Find_header > span > a:hover {
     color: #d00;
@@ -43,6 +43,6 @@
 }
 .Find_content {
     display: inline-block;
-    max-width: 890px;
+    max-width: 1100px;
     width: 100%;
 }
