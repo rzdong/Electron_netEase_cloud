@@ -5,8 +5,9 @@ class List_unit extends Component {
         var src = this.props.src
         var content = this.props.content
         var index = this.props.index
+        var length = this.props.length - 1
         return (
-            <div className="List_unit" style={(index == 4) ? {paddingRight: 0} : {}}>
+            <div className="List_unit" style={(index == length) ? {paddingRight: 0} : {}}>
                 <div className="Image">
                     <img src={src} alt=""/>
                 </div>

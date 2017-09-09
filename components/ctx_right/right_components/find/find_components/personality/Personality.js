@@ -31,13 +31,36 @@ class Personality extends Component {
                 { src: J, content: "标题1"},
             ]
         ]
+        var oneItem1 = [
+            [
+                { src: F, content: "标题1标题1"},
+                { src: G, content: "标题1标题1标题1"},
+                { src: H, content: "标题1标题1标题1标题1"},
+                { src: I, content: "标题1标题1标题1标题1标题1标题1"},
+            ]
+        ]
         var data = oneItem.map(function(item){
+                var length = item.length
                 return(
                     <div className="one">
                         {
                             item.map(function(i,index){
                                 return (
-                                    <List_unit src={i.src} content={i.content} index={index}/>
+                                    <List_unit src={i.src} content={i.content} index={index} length={length}/>
+                                )
+                            })
+                        }
+                    </div>
+                )
+            })
+        var data1 = oneItem1.map(function(item){
+                var length = item.length
+                return(
+                    <div className="one">
+                        {
+                            item.map(function(i,index){
+                                return (
+                                    <List_unit src={i.src} content={i.content} index={index} length={length}/>
                                 )
                             })
                         }
@@ -56,7 +79,7 @@ class Personality extends Component {
                 <div className="Personality_recommend">
                     <Title_hr title={"推荐歌单"} more={true} />
                     {
-                        data
+                        data1
                     }
                 </div>
                 <div className="Personality_exclusive"></div>
