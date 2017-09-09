@@ -9,4 +9,5 @@
     border-left: none;
     border-top: 1px solid #ccc;
     position: relative;
+    overflow-y: scroll;
 }
