@@ -1,5 +1,5 @@
 # Electron_netEase_cloud
-this is a demo for party of haochang <br />
+this is a demo for netEase_cloud <br />
 :blush:
 # download
 git clone ssh or https
