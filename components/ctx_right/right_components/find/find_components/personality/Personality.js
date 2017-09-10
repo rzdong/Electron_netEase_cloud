@@ -35,7 +35,6 @@ class Personality extends Component {
             [
                 { src: F, content: "标题1标题1"},
                 { src: G, content: "标题1标题1标题1"},
-                { src: H, content: "标题1标题1标题1标题1"},
                 { src: I, content: "标题1标题1标题1标题1标题1标题1"},
             ]
         ]
@@ -82,7 +81,10 @@ class Personality extends Component {
                         data1
                     }
                 </div>
-                <div className="Personality_exclusive"></div>
+                <div className="Personality_exclusive">
+                    <Title_hr title={"最新音乐"} more={true} />
+
+                </div>
                 <div className="Personality_new"></div>
                 <div className="Personality_mv"></div>
                 <div className="Personality_radio"></div>
