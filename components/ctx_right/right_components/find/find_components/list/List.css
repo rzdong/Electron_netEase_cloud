@@ -1,3 +1,9 @@
-*{
-    
+.Find_list > .All_list {
+    text-align: left;
+}
+.Find_list > .Hot_door {
+    text-align: left;
+}
+.Find_list > .Song_list > .one {
+    display: flex;
 }

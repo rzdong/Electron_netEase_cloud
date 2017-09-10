@@ -81,9 +81,14 @@ class Personality extends Component {
                         data1
                     }
                 </div>
+                <div className="Personality_recommend">
+                    <Title_hr title={"最新MV"} more={true} />
+                    {
+                        data1
+                    }
+                </div>
                 <div className="Personality_exclusive">
                     <Title_hr title={"最新音乐"} more={true} />
-
                 </div>
                 <div className="Personality_new"></div>
                 <div className="Personality_mv"></div>
