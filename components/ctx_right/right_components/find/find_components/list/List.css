@@ -1,8 +1,33 @@
 .Find_list > .All_list {
     text-align: left;
+    height: 30px;
+}
+.Find_list > .All_list > botton {
+    height: 30px;
+    border: 1px solid #8c8c8c;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Find_list > .All_list > botton > span {
+    margin-left: 5px;
+    font-size: 12px; 
+}
+.Find_list > .All_list > botton:hover {
+    background-color: #f0f0f0;
 }
 .Find_list > .Hot_door {
     text-align: left;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.Find_list > .Hot_door > a {
+    padding: 0 16px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #555555;
+    font-size: 12px;
 }
 .Find_list > .Song_list > .one {
     display: flex;
