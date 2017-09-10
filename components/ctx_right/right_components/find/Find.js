@@ -49,7 +49,7 @@ class Find extends Component {
                 </div>
                 <div className="Find_content">
                     <Switch>
-                        <Redirect from='/find/' to='/find/personality' exact/>
+                        <Redirect from='/find' to='/find/personality' exact/> 
                         <Route path="/find/personality/" component={Personality}></Route>
                         <Route path="/find/list" component={List}></Route>
                         <Route path="/find/anchor" component={Anchor}></Route>
