@@ -1,6 +1,8 @@
 # Electron_netEase_cloud
 this is a demo for netEase_cloud <br />
 :blush:
+# dependent
+react + react-router + webpack + electron
 # download
 git clone ssh or https
 # install
