@@ -23,7 +23,7 @@ class Find extends Component {
     }
     render(){
         var items = [
-                { path: '/find/personality', title: '个性推荐'},
+                { path: '/find/', title: '个性推荐'},
                 { path: '/find/list', title: '歌单'},
                 { path: '/find/anchor', title: '主播电台'},
                 { path: '/find/rank', title: '排行榜'},
@@ -49,8 +49,8 @@ class Find extends Component {
                 </div>
                 <div className="Find_content">
                     <Switch>
-                        <Redirect from='/find' to='/find/personality' exact/> 
-                        <Route path="/find/personality/" component={Personality}></Route>
+                        {/* <Redirect from='/find' to='/find/personality' exact/>  */}
+                        <Route path="/find/" component={Personality} exact></Route>
                         <Route path="/find/list" component={List}></Route>
                         <Route path="/find/anchor" component={Anchor}></Route>
                         <Route path="/find/rank" component={Rank}></Route>
