@@ -23,3 +23,6 @@
 .Comment_ctx > .Comment_content > .User_name {
     color: #006ccc;
 }
+.Comment_ctx > .Comment_time {
+    margin-top: 10px;
+}
