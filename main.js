@@ -2,11 +2,11 @@ const {app, BrowserWindow} = require('electron')
 let win
 function createWindow(){
   win = new BrowserWindow({
-    width:950, 
-    height:650,
+    width:1100, 
+    height:850,
     frame:false,
-    minWidth:950,
-    minHeight:650,
+    minWidth:1000,
+    minHeight:750,
     transparent:false,
   })
   win.loadURL(`file://${__dirname}/index.html`)

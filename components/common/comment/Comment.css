@@ -1,0 +1,33 @@
+.Comment_warper {
+    height: 46px;
+    border: 8px solid #f0f0f0;
+    margin-bottom: 50px;
+}
+.Comment_warper > .Warper {
+    height: 30px;
+    color: #7f7f7f;
+    display: flex;
+}
+.Comment_warper > .Warper > span {
+    height: 30px;
+    line-height: 30px;
+}
+.Comment_warper > .Warper > .Left {
+    flex: 1;
+    height: 30px;
+    line-height: 30px;
+    text-align: left
+}
+.Comment_warper > .Warper > .Left > .glyphicon{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 6px;
+}
+.Comment_warper > .Warper > .Right > span {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 6px;
+    cursor: pointer;
+}

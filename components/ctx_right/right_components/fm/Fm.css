@@ -1,4 +1,22 @@
-*{
+.Fm_warper {
     margin: 0;
-    padding: 0;
+    padding: 0 18px 0 26px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.Fm_warper > div {
+    min-width: 800px;
+    width: 800px;
+    display: inline-block;
+}
+.Fm_music {
+    height: 450px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.Fm_comment {
+    height: 800px;
+    margin-top: 20px;
 }

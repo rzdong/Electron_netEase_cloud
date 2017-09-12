@@ -9,6 +9,12 @@
     line-height: 40px;
     float: left;
 }
+.Title_hr > .title_small {
+    font-size: 13px;
+    line-height: 42px;
+    float: left;
+    padding: 0 8px;
+}
 .Title_hr > .more {
     font-size: 12px;
     position: relative;
