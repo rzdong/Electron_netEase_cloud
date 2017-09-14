@@ -3,7 +3,7 @@ let win
 function createWindow(){
   win = new BrowserWindow({
     width:900, 
-    height:750,
+    height:650,
     frame:false,
     minWidth:800,
     minHeight:600,

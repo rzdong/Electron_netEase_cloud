@@ -12,7 +12,8 @@
     display: inline-block;
 }
 .Fm_music {
-    height: 450px;
+    height: 350px;
+    width: 100%;
     margin-top: 50px;
     display: inline-block;
 }
