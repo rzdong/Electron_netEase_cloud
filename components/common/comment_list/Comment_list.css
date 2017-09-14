@@ -44,3 +44,6 @@
     color: #000;
     cursor: pointer;
 }
+.Comment_type > .recom {
+    padding-right: 0
+}

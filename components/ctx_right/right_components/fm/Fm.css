@@ -7,8 +7,8 @@
     text-align: center;
 }
 .Fm_warper > div {
-    min-width: 800px;
-    width: 800px;
+    min-width: 500px;
+    width: 600px;
     display: inline-block;
 }
 .Fm_music {
