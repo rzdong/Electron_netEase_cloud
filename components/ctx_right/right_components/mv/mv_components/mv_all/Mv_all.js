@@ -6,7 +6,7 @@ import {
     Link,
 } from 'react-router-dom';
 import './Mv_all.css';
-import Title_hr from '../../../../../common/title_hr'
+import Title_hr from '../../../../../common/title_hr/Title_hr'
 import List_unit from '../../../../../common/list_unit/List_unit'
 import A from '../../../../../../image/img1.jpg'
 import B from '../../../../../../image/img2.jpg'
