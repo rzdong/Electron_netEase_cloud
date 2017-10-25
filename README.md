@@ -1,21 +1,17 @@
 # Electron_netEase_cloud
-this is a demo for netEase_cloud <br />
+模仿网易云音乐 <br />
 :blush:
 # dependent
 react + react-router + webpack + electron<br />
-tips: <br />
-node version >= 6, 6.11.1 are good selectting;<br />
-electron-prebuilt package is renamed by electron;<br />
-if you cound't use 'electron .' query to running application or 'webpack', you can try to use 'npm run preview' or 'npm run webpack' that it is self-defined at the package.json. 
-# download
-git clone ssh or https
-# install
+注意: <br />
+node 版本至少 6.11.1 <br />
+# 安装依赖
 npm i
-# preview in browser
+# 浏览器中预览（nodejs开启的本地服务器）
 node http.js <br />
-next use browser visit localhost:5000
-# preview in PC
+浏览器访问localhost:5000
+# PC 端预览
 npm run preview
-# build
+# 构建应用
 npm run packager <br />
-this script will build winx64 in __dirname
+会在当前目录创建win64位的应用
