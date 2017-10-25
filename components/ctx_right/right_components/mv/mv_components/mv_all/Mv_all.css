@@ -1,0 +1,10 @@
+.MV_all {
+    width: 100%;
+    height: auto;
+}
+.MV_newest {
+    height: auto;
+}
+.MV_newest > .one {
+    display: flex;
+}

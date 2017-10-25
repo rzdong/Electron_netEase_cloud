@@ -26,6 +26,7 @@
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",
     "clean-webpack-plugin": "^0.1.16",
+    "electron": "^1.7.8",
     "electron-packager": "^9.0.0",
     "electron-prebuilt": "^1.4.13",
     "electron": "^1.7.9",

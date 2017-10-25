@@ -26,3 +26,24 @@
 .Comment_ctx > .Comment_time {
     margin-top: 10px;
 }
+.Comment_ctx > .Comment_time > .Comment_type{
+    float: right;
+}
+.Comment_ctx > .Comment_time > .Comment_type > .hover{
+    display: none
+}
+.Comment_ctx:hover > .Comment_time > .Comment_type > .hover{
+    display: inline
+}
+.Comment_type > span {
+    padding: 0 15px;
+    color: #555
+}
+.Comment_type > span:hover {
+    text-decoration: underline;
+    color: #000;
+    cursor: pointer;
+}
+.Comment_type > .recom {
+    padding-right: 0
+}

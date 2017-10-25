@@ -21,6 +21,12 @@ class Comment_list extends Component {
                 </div>
                 <div className="Comment_time">
                     <span>{ time }</span>
+                    <span className="Comment_type">
+                        <span className="hover">举报</span>|
+                        <span className="best"><span className="glyphicon glyphicon-thumbs-up"></span>点赞</span>|
+                        <span className="share">分享</span>|
+                        <span className="recom">回复</span>
+                    </span>
                 </div>
             </div>
         </div>
