@@ -15,3 +15,6 @@ npm run preview
 # 构建应用
 npm run packager <br />
 会在当前目录创建win64位的应用
+# tips:
+electron 可能需要重新安装
+
