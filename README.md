@@ -18,3 +18,6 @@ npm run packager <br />
 # tips:
 electron 可能需要重新安装
 
+# note：
+实现了部分界面。
+
