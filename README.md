@@ -21,3 +21,7 @@ electron 可能需要重新安装
 # note：
 实现了部分界面。
 
+# 图示
+![图片示例](/home.png)
+![图片示例](/detail.png)
+
