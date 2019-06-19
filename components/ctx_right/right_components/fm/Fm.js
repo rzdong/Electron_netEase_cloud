@@ -41,7 +41,7 @@ class Fm extends Component {
                 <div>
                     <div className="Fm_music"></div>
                     <div className="Fm_comment">
-                        <Title_hr title={"听友评论 "} more={false} title_small={"(yi有45367条评论)"}/>
+                        <Title_hr title={"听友评论 "} more={false} title_small={"(已有45367条评论)"}/>
                         <Comment />
                         <Title_hr title={"精彩评论 "} more={false} />
                         <div>
