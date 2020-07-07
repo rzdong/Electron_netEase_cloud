@@ -28,7 +28,7 @@
     "clean-webpack-plugin": "^0.1.16",
     "electron-packager": "^9.0.0",
     "electron-prebuilt": "^1.4.13",
-    "electron": "^1.7.9",
+    "electron": "^9.1.0",
     "html-webpack-plugin": "^2.29.0"
   }
 }
